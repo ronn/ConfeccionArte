@@ -10,7 +10,6 @@ public class Usuario {
     private String codigo;
     private String nombreCompleto;
     private String nombreUsuario;
-    private String perfil;
 
     /**
      * @return the clave
@@ -66,19 +65,5 @@ public class Usuario {
      */
     public void setNombreUsuario(String nombreUsuario) {
         this.nombreUsuario = nombreUsuario;
-    }
-
-    /**
-     * @return the perfil
-     */
-    public String getPerfil() {
-        return perfil;
-    }
-
-    /**
-     * @param perfil the perfil to set
-     */
-    public void setPerfil(String perfil) {
-        this.perfil = perfil;
-    }    
+    } 
 }
